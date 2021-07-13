@@ -14,7 +14,7 @@ public class Empresa{
     }
 
     public void mostrar(){
-        System.out.println();
+        System.out.println("\n");
         System.out.println("Datos de la Empresa:");
         System.out.println("Nombre: " + getNombre());
         empleado.mostrar();
