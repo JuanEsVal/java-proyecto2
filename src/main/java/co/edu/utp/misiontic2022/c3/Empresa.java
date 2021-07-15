@@ -20,4 +20,12 @@ public class Empresa{
         empleado.mostrar();
     }   
 
+    public String toString(){
+        return "Empresa: " + getNombre() + " Empleado: " + empleado.toString();
+    }
+
+    public String telefonoCliente(Cliente cliente){
+        return cliente.getTelefonoContacto();
+    }
+
 }

@@ -17,11 +17,15 @@ public class Cliente extends Persona{
     }
 
     public void mostrar(){
-        System.out.println();
+        System.out.println("-----------------------------");
         System.out.println("Datos del Cliente:");
         System.out.println("Nombre: " + super.getNombre());
         System.out.println("Edad: " + super.getEdad());
         System.out.println("Telefono de Contacto: " + getTelefonoContacto());        
+    }
+
+    public String toString(){
+        return "Nombre: " + super.getNombre() + "   Edad: " + super.getEdad() + "   Telefono: " + getTelefonoContacto();
     }
 
 }

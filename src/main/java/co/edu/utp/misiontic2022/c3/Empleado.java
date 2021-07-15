@@ -19,10 +19,14 @@ public class Empleado extends Persona{
     }
 
     public void mostrar(){
-        //System.out.println();
+        System.out.println("-----------------------------");
         System.out.println("Datos del Empleado:");
         System.out.println("Nombre: " + super.getNombre());
         System.out.println("Edad: " + super.getEdad());
         System.out.println("Sueldo Bruto: " + getSueldoBruto());        
+    }
+
+    public String toString(){
+        return "Nombre: " + super.getNombre() + "   Edad: " + super.getEdad() + "   Sueldo Bruto: " + getSueldoBruto();
     }
 }
